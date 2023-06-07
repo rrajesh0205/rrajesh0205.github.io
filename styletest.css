@@ -1,0 +1,49 @@
+
+
+@font-face {
+	font-family: 'HelveticaNeueLTPro';
+    src: url("../fonts/HelveticaNeueLTPro-Md.woff");
+}
+body,html {
+	font-family: 'HelveticaNeueLTPro', sans-serif;
+  	font-size: 60px;
+	background-image: url('bg.png');
+	background-repeat: no-repeat; 
+	color: white;
+}
+.father  {
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
+.child  {
+	font-size: 48px;
+	position: absolute;
+  	left: 94%;
+  	top: 94%;
+  	-webkit-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+span
+{
+	color:#ffc515;
+}
+a:link, 
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color:#ffc515;
+	text-decoration: underline;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
