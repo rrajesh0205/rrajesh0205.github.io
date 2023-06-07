@@ -3,7 +3,7 @@ Hey! Nice to see you.
 
 I’m Rajesh Ramamoorthy.
 
-🌱  I’m currently learning Django
+🌱  I’m currently learning Django.
 
 💬 reach me ... rajesh.ramamoorthy@outlook.in
 
