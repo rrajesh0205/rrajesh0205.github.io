@@ -6,13 +6,13 @@
 }
 body,html {
 	font-family: 'HelveticaNeueLTPro', sans-serif;
-  	font-size: 60px;
 	background-image: url('bg.jpg');
 	background-repeat: no-repeat; 
 	color: white;
 }
 .father  {
 	position: absolute;
+	font-size: 48px;
   	left: 50%;
   	top: 50%;
   	-webkit-transform: translate(-50%, -50%);
