@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: 'HelveticaNeueLTPro';
-    src: url("../HelveticaNeueLTPro-Lt.woff");
+    src: url("../HelveticaNeueLTPro-Roman.ttf");
 }
 body,html {
 	font-family: 'HelveticaNeueLTPro', sans-serif;
