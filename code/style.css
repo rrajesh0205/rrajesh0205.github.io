@@ -22,7 +22,7 @@ body,html {
 .child  {
 	font-size: 48px;
 	position: absolute;
-  	left: 94%;
+  	left: 98%;
   	top: 83%;
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
