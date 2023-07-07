@@ -71,9 +71,10 @@ img.center {
   color: black;
 }
 
+
 .navbar a.active {
-  background-color: #ffc515;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .navbar .icon {
