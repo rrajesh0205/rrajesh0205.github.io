@@ -73,9 +73,8 @@ img.center {
 }
 
 .navbar a.active {
-  padding: 14px 16px;
-  background-color: #ffc515;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .navbar .icon {
