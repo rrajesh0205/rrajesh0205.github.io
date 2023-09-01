@@ -84,3 +84,16 @@ a:hover{
     display: block;
     text-align: left;
   }
+
+.left-links{
+  display:flex;
+  text-align: left;
+}
+.right-links{
+  justify-content:center;
+  flex-grow:1;
+  display: flex;
+  flex:1 1 200px;
+  text-align: left;
+
+}
