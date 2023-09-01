@@ -65,6 +65,10 @@ a:hover{
   display: none;
 }
 
+.navbar a.split {
+  float: right;
+  color: white;
+}
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
