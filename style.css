@@ -68,6 +68,7 @@ a:hover{
 .navbar a.split {
   float: right;
   display: block;
+  background-color: black;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -93,16 +94,3 @@ a:hover{
     display: block;
     text-align: left;
   }
-
-.left-links{
-  display:flex;
-  text-align: left;
-}
-.right-links{
-  justify-content:center;
-  flex-grow:1;
-  display: flex;
-  flex:1 1 200px;
-  text-align: left;
-
-}
