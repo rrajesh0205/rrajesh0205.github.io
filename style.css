@@ -37,7 +37,7 @@ a:hover{
   background-color: #ffc515;
   color: black;
   position: fixed;
-  bottom: 100;
+  bottom: 0;
   width: 100%;
 }
 
