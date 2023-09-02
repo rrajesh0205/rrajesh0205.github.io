@@ -23,10 +23,14 @@ span
 {
 	color: #ffc515;
 }
-spannew
+spanwhite
 {
 	color: white;
 }	
+spanblack
+{
+	color: black;
+}
 a:link, 
 a:visited{
 	color: white;
