@@ -42,7 +42,8 @@ a:hover{
 }
 .navbar {
   overflow: hidden;
-  background-color: #ffc515;
+  background-color: #f9dc5c;
+  /*background-color: #ffc515;*/
   color: black;
   position: fixed;
   bottom: 0;
