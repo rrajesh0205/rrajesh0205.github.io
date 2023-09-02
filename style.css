@@ -65,24 +65,6 @@ a:hover{
   display: none;
 }
 
-.navbar a.split {
-  float: right;
-  display: block;
-  background-color: black;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-.navbarnew {
-  overflow: hidden;
-  background-color: #ffc515;
-  color: black;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
