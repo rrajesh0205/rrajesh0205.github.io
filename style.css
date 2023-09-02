@@ -68,9 +68,9 @@ a:hover{
   float: right;
   display: block;
   color: #000000;
+  padding: 1%;
   text-decoration: none;
   font-size: 16px;
-  vertical-align: text-bottom;
 }
 
 @media screen and (max-width: 600px) {
