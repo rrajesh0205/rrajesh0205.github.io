@@ -58,21 +58,19 @@ a:hover{
   text-decoration: none;
   font-size: 24px;
 }
-
 .navbar a:hover {
   background-color: white;
   color: black;
 }
-
 .navbar a.active {
   background-color: black;
   color: white;
+  cursor: not-allowed;
+  pointer-events: all !important;
 }
-
 .navbar .icon {
   display: none;
 }
-
 .navbar .bottom {
   float: right;
   display: block;
@@ -81,7 +79,6 @@ a:hover{
   text-decoration: none;
   font-size: 18px;
 }
-
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
