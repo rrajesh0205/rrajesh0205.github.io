@@ -41,46 +41,45 @@ a:hover{
 	text-decoration: underline;
 }
 .navbar {
-  overflow: hidden;
-  background-color: #faf7ee;
-  color: black;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+	  overflow: hidden;
+	  background-color: #faf7ee;
+	  color: black;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
 }
 
 .navbar a {
-  float: left;
-  display: block;
-  color: #f9dc5c;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
+	  float: left;
+	  display: block;
+	  color: #f9dc5c;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 24px;
 }
 
 .navbar a:hover {
-  background-color: white;
-  color: black;
+	  background-color: white;
+	  color: black;
 }
-
 .navbar a.active {
-  background-color: black;
-  color: white;
+	  background-color: black;
+	  color: white;
+	  cursor: not-allowed;
+	  pointer-events: all !important;
 }
 .navbar .icon {
   display: none;
 }
-
 .navbar .bottom {
-  float: right;
-  display: block;
-  color: #000000;
-  padding: 1%;
-  text-decoration: none;
-  font-size: 18px;
+	  float: right;
+	  display: block;
+	  color: #000000;
+	  padding: 1%;
+	  text-decoration: none;
+	  font-size: 18px;
 }
-
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
