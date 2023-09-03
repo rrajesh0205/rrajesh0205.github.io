@@ -61,8 +61,8 @@ a:hover{
   color: black;
 }
 .navbar a.active {
-  background-color: black;
-  color: white;
+  background-color: #f9dc5c;
+  color: black;
   cursor: not-allowed;
   pointer-events: all !important;
   overflow: hidden;
