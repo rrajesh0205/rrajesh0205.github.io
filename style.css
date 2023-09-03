@@ -55,6 +55,7 @@ a:hover{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 24px;
+  border-bottom: 3px solid #f9dc5c;
 }
 .navbar a:hover {
   background-color: white;
@@ -67,7 +68,6 @@ a:hover{
   pointer-events: all !important;
   overflow: hidden;
   width: 100%;
-  border-bottom: 3px solid #f9dc5c;
 }
 .navbar .icon {
   display: none;
