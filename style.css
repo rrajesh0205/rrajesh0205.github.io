@@ -93,3 +93,7 @@ a:hover{
     display: block;
     text-align: left;
   }
+.copyright {
+  background-color: black;
+  color: white;
+}
