@@ -41,27 +41,26 @@ a:hover{
 	text-decoration: underline;
 }
 .navbar {
-	  overflow: hidden;
-	  background-color: #faf7ee;
-	  color: black;
-	  position: fixed;
-	  bottom: 0;
-	  width: 100%;
+  overflow: hidden;
+  background-color: #faf7ee;
+  /*background-color: #ffc515;*/
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
 .navbar a {
-	  float: left;
-	  display: block;
-	  color: #f9dc5c;
-	  text-align: center;
-	  padding: 14px 16px;
-	  text-decoration: none;
-	  font-size: 24px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
 }
-
 .navbar a:hover {
-	  background-color: white;
-	  color: black;
+  background-color: white;
+  color: #f9dc5c;
 }
 .navbar a.active {
   background-color: #f9dc5c;
