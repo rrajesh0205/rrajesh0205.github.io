@@ -45,7 +45,6 @@ a:hover{
   color: black;
   position: fixed;
   bottom: 0;
-  border-left: solid #faf7ee;	
   width: 100%;
 }
 .navbar a {
@@ -56,6 +55,7 @@ a:hover{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 24px;
+  border-left: solid #faf7ee;	
 }
 .navbar a:hover {
   background-color: white;
