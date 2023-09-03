@@ -64,10 +64,12 @@ a:hover{
 	  color: black;
 }
 .navbar a.active {
-	  background-color: black;
-	  color: white;
-	  cursor: not-allowed;
-	  pointer-events: all !important;
+  background-color: black;
+  color: white;
+  cursor: not-allowed;
+  pointer-events: all !important;
+  overflow: hidden;
+  width: 100%;
 }
 .navbar .icon {
   display: none;
