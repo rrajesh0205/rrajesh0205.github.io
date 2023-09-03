@@ -63,6 +63,7 @@ a:hover{
 .navbar a.active {
   background-color: black;
   color: white;
+  padding: 14px 16px;
   cursor: not-allowed;
   pointer-events: all !important;
 }
