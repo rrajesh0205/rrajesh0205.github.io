@@ -67,6 +67,8 @@ a:hover{
   color: white;
   cursor: not-allowed;
   pointer-events: all !important;
+  overflow: hidden;
+  width: 100%;
 }
 .navbar .icon {
   display: none;
