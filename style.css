@@ -98,6 +98,6 @@ a:hover{
   color: white;
 }
 a.disabled-link {
-cursor: not-allowed;
+  cursor: not-allowed;
   pointer-events: all !important;
 }
