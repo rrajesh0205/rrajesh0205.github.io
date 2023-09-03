@@ -50,7 +50,7 @@ a:hover{
 .navbar a {
   float: left;
   display: block;
-  color: #f9dc5c;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -58,7 +58,7 @@ a:hover{
 }
 .navbar a:hover {
   background-color: white;
-  color: black;
+  color: #f9dc5c;
 }
 .navbar a.active {
   background-color: #f9dc5c;
