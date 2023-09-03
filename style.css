@@ -67,7 +67,6 @@ a:hover{
   pointer-events: all !important;
   overflow: hidden;
   position: fixed;
-  bottom: 0;
   width: 100%;
 }
 .navbar .icon {
