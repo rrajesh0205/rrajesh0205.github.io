@@ -45,6 +45,7 @@ a:hover{
   color: black;
   position: fixed;
   bottom: 0;
+  border-left: solid #faf7ee;	
   width: 100%;
 }
 .navbar a {
