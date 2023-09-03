@@ -43,7 +43,6 @@ a:hover{
 .navbar {
   overflow: hidden;
   background-color: #f9dc5c;
-  opacity: 0.5;
   /*background-color: #ffc515;*/
   color: black;
   position: fixed;
