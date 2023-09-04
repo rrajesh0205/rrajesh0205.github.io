@@ -47,7 +47,8 @@ a:hover{
   color: black;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100%;  
+  border-top: 5px solid #f9dc5c;
 }
 .navbar a {
   float: left;
