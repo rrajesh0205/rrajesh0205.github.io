@@ -68,7 +68,7 @@ a:hover{
   pointer-events: all !important;
   overflow: hidden;
   width: 100%;
-  border-top: 5px solid #f9dc5c;
+  border-top: 5px solid black;
 }
 .navbar .icon {
   display: none;
