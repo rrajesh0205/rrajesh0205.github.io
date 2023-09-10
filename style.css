@@ -11,7 +11,7 @@ body,html {
 }
 .father  {
 	position: absolute;
-	font-size: 48px;
+	font-size: 36px;
   	left: 50%;
   	top: 50%;
   	-webkit-transform: translate(-50%, -50%);
