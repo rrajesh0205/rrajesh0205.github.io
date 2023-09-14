@@ -38,7 +38,7 @@ a:visited{
 }
 a:hover{
 	color:#f9dc5c;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 .navbar {
   overflow: hidden;
