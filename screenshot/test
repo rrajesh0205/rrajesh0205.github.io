@@ -1,2 +1,6 @@
 14th September 2023.
-Added 
+In line 20 of index.html, initially it was -
+<a href="#" class="active">© 2023 Rajesh Ramamoorthy. All rights reserved.</a>     
+
+
+
