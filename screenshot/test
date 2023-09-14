@@ -1,6 +1,8 @@
 14th September 2023.
 In line 20 of index.html, initially it was -
-<a href="#" class="active">© 2023 Rajesh Ramamoorthy. All rights reserved.</a>     
+<a href="#" class="active">© 2023 Rajesh Ramamoorthy. All rights reserved.</a>   
+And now line 20 of index.html, is modified as -
+<a href="#" class="active">© 2023 Rajesh Ramamoorthy.</a>     
 
 
 
