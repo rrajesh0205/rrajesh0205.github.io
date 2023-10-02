@@ -1,0 +1,7 @@
+14th September 2023 at 10:11 PM
+
+Line 20 of index.html, was -
+<a href="#" class="active">© 2023 Rajesh Ramamoorthy.</a> 
+
+Now the line 20 of index.html, is -
+<a href="#" class="active">© 2023 Rajesh Ramamoorthy. All rights reserved.</a> 
