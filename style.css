@@ -6,7 +6,7 @@ body,html {
 	margin: 0;
 	font-family: 'HelveticaNeueLTPro', sans-serif;
 	background-image: url('background.jpg');
-	background-repeat: no-repeat; 
+	background-size: auto;	
 	color: white;
 }
 .father  {
