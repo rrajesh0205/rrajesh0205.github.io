@@ -1,13 +1,11 @@
 
 @font-face {
-	font-family: 'Mona Sans';
-    src: url("../Mona-Sans-Regular.ttf");
+	font-family: 'HelveticaNeueLTPro';
+    src: url("../HelveticaNeueLTPro-Roman.ttf");
 }
-
 body,html {
 	margin: 0;
-	font-family: "Mona Sans", sans-serif;
-	font-weight: 400;
+	font-family: 'HelveticaNeueLTPro', sans-serif;
 	background-image: url('background.jpg');
 	position: fixed;
 	top: 0;
@@ -20,7 +18,7 @@ body,html {
 }
 .father  {
 	position: absolute;
-	font-size: 64px;
+	font-size: 72px;
   	left: 50%;
   	top: 50%;
   	-webkit-transform: translate(-50%, -50%);
