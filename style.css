@@ -1,12 +1,12 @@
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-@font-face {
-	font-family: 'HelveticaNeueLTPro';
-    src: url("../HelveticaNeueLTPro-Roman.ttf");
-}
 body,html {
 	margin: 0;
-	font-family: 'HelveticaNeueLTPro', sans-serif;
+	font-family: "Mona Sans", sans-serif;
+	font-weight: 400;
 	background-image: url('background.jpg');
 	position: fixed;
 	top: 0;
