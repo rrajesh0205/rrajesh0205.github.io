@@ -41,14 +41,14 @@ span
 }
 a:link, 
 a:visited{
-	 filter: none;
-    -webkit-filter: grayscale(0);
-	/*color: white;
-	text-decoration: none;*/
+	color: white;
+	text-decoration: none;
 }
 a:hover{
-	color:#ffc515;
-	text-decoration: underline;
+	filter: none;
+    -webkit-filter: grayscale(0);
+	/*color:#ffc515;
+	text-decoration: underline;*/
 }
 
 img.center {
