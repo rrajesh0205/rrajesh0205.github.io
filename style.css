@@ -41,8 +41,10 @@ span
 }
 a:link, 
 a:visited{
-	color: white;
-	text-decoration: none;
+	 filter: none;
+    -webkit-filter: grayscale(0);
+	/*color: white;
+	text-decoration: none;*/
 }
 a:hover{
 	color:#ffc515;
