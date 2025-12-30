@@ -32,8 +32,9 @@ body,html {
   	top: 94%;
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
-	filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+	transition: filter .5s ease-in-out;
+  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+ 	filter: grayscale(0%); /* FF 35+ */
 }
 span
 {
