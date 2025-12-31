@@ -36,17 +36,6 @@ body,html {
   	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
  	filter: grayscale(0%); /* FF 35+ */
 }
-.child1  {
-	font-size: 48px;
-	position: absolute;
-  	left: 10%;
-  	top: 90%;
-  	-webkit-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
-	transition: filter .5s ease-in-out;
-  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
- 	filter: grayscale(0%); /* FF 35+ */
-}
 span
 {
 	color:#ffc515;
