@@ -47,7 +47,7 @@ a:visited{
 }
 a:hover{
 	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ 
+  	filter: grayscale(100%); /* FF 35+ 
 	/*color:#ffc515;
 	text-decoration: underline;*/
 }
