@@ -28,8 +28,8 @@ body,html {
 .child  {
 	font-size: 48px;
 	position: absolute;
-  	left: 96%;
-  	top: 96%;
+  	left: 95%;
+  	top: 95%;
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
 	transition: filter .5s ease-in-out;
