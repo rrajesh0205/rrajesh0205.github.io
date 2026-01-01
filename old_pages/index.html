@@ -10,49 +10,77 @@
     <link href="style.css" rel="stylesheet">
     <title>home</title>
 </head> 
+
 <!--    Made by Erik Terwan    -->
 <!--   24th of November 2015   -->
 <!--        MIT License        -->
-
 <nav role="navigation">
   <div id="menuToggle">
-    <!-
+    <!--
     A fake / hidden checkbox is used as click reciever,
     so you can use the :checked selector on it.
     -->
-
-    <input type="checkbox" />
+    <input type="checkbox" id="menuCheckbox" />
     
-    <!-
+    <!--
     Some spans to act as a hamburger.
     
     They are acting like a real hamburger,
     not that McDonalds stuff.
     -->
-
     <span></span>
     <span></span>
     <span></span>
     
-    <!-
+    <!--
     Too bad the menu has to be inside of the button
     but hey, it's pure CSS magic.
     -->
-
     <ul id="menu">
-      <a href='/'>
-          <li>Home</li>
-      </a>
-      <a href='create'>
-          <li>Create</li>
-      </a>
-      <a href='about'>
-          <li>Contact</li>
-      </a>
+      <!-- 
+      We can use a label here to close upon click (when doing same page navigation), this
+      does require a slight bit of JS.
+      -->
+      <li>
+        <a href="#">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+        </a>
+      </li>
+      <li>
+        <a href="#about">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+        </a>
+      </li>
+      
+      <!-- These just close the menu -->
+      <li><label for="menuCheckbox"><a>Info</a></label></li>
+      <li><label for="menuCheckbox"><a>Contact</a></label></li>
+      
+      <!-- Or just use regular URLs -->
+      <li>
+        <a href="https://erikterwan.com/" target="_blank">Show me more</a>
+      </li>
     </ul>
   </div>
 </nav>
-<br>
+<main>
+  <h1>Pure CSS Hamburger Menu</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa eros, commodo in auctor eget, condimentum et velit. Curabitur sit amet rhoncus augue. Sed sed turpis at tortor hendrerit feugiat eget et enim. Curabitur velit neque, pretium eu lacinia et, euismod et diam. Nunc eget ullamcorper lectus. Ut feugiat arcu id leo elementum, eu tincidunt ex imperdiet. Etiam at volutpat enim. Donec porta velit a scelerisque congue. Vestibulum eu sem mauris. Morbi quis lacinia purus, vitae dictum mauris. Nunc elementum eget dolor at finibus. Nullam at iaculis est.</p>
+
+  <p>Curabitur tristique venenatis enim id ornare. Maecenas ultrices ex non orci dapibus, vel pharetra nisl imperdiet. Praesent venenatis odio ac tempus pretium. Curabitur interdum purus vel mi ornare, non eleifend ligula consectetur. Vestibulum lacinia nunc leo, fermentum interdum purus commodo ut. Sed auctor efficitur ullamcorper. Aenean nec neque dui. Aenean tincidunt ligula at sodales porta. Nam ultrices nulla dui, sed imperdiet nunc sollicitudin nec.</p>
+  
+  <p>Aliquam hendrerit efficitur arcu ut suscipit. Etiam vel lacus at enim malesuada vulputate a at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc interdum mollis ultrices. In eget commodo justo, in vulputate eros. In et congue enim. Etiam eleifend dolor ac lectus faucibus aliquet. Vivamus luctus libero elit, id porttitor neque scelerisque id.</p>
+
+  <p>Cras libero dolor, malesuada non porttitor at, viverra at ligula. Suspendisse eget dapibus nisl, at vulputate nisi. Vestibulum purus nisi, viverra vel tortor eget, imperdiet facilisis lectus. Maecenas vestibulum elit sit amet nibh ultricies hendrerit. Mauris convallis, purus eu pharetra viverra, lectus lacus accumsan diam, euismod sollicitudin libero eros et quam. Praesent posuere ante et erat commodo, quis rutrum odio elementum. Aliquam tempus vestibulum mi ut sollicitudin.</p>
+  
+  <h2 id="about">About</h2>
+  <p>Pellentesque imperdiet, massa at ultricies venenatis, eros lorem ultricies felis, in dapibus est magna ut augue. Cras efficitur mi at turpis placerat pulvinar. Sed bibendum dapibus nibh vitae vulputate. In eleifend orci vitae augue tincidunt, in posuere erat gravida. Vivamus in tortor feugiat, auctor mi sed, vehicula risus. Nulla facilisi. Phasellus mi dui, scelerisque ac nulla eu, viverra vehicula velit.</p>
+
+  <p>Cras libero dolor, malesuada non porttitor at, viverra at ligula. Suspendisse eget dapibus nisl, at vulputate nisi. Vestibulum purus nisi, viverra vel tortor eget, imperdiet facilisis lectus. Maecenas vestibulum elit sit amet nibh ultricies hendrerit. Mauris convallis, purus eu pharetra viverra, lectus lacus accumsan diam, euismod sollicitudin libero eros et quam. Praesent posuere ante et erat commodo, quis rutrum odio elementum. Aliquam tempus vestibulum mi ut sollicitudin.</p>
+  
+  <p>Aliquam hendrerit efficitur arcu ut suscipit. Etiam vel lacus at enim malesuada vulputate a at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc interdum mollis ultrices. In eget commodo justo, in vulputate eros. In et congue enim. Etiam eleifend dolor ac lectus faucibus aliquet. Vivamus luctus libero elit, id porttitor neque scelerisque id.</p>
+</main>    
+
 <body>
     <div class="father">
         Hi there <span>...</span><br>
