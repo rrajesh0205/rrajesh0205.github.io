@@ -16,6 +16,8 @@ body,html {
 	background-position: center; 
 	background-repeat:no-repeat;
 	color: white;
+    overflow-x: hidden;
+
 }
 .father  {
 	position: absolute;
@@ -55,13 +57,6 @@ img.center {
 	}
 
 /* Navigation Bar*/
-
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-html, body {
-    overflow-x: hidden;
-    height: 100%;
-}
-}
 .header {
     display: block;
     margin: 0 auto;
