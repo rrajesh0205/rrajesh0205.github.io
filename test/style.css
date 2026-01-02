@@ -106,12 +106,12 @@ img.center {
 }
 .sidebarMenuInner li{
     list-style: none;
-    color: white;
+    color: #ffc515;
     /*text-transform: uppercase;*/
 	font-size: 32px;
     padding: 20px;
     cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.10);*/
 }
 .sidebarMenuInner li span{
     display: block;
