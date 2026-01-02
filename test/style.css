@@ -58,6 +58,7 @@ img.center {
 
 #menu__toggle {
   opacity: 0;
+  color: white;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
