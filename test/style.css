@@ -96,7 +96,7 @@ img.center {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background-color: #ffc515;
+    /*background-color: #ffc515;*/
 	
 }
 .sidebarMenuInner{
