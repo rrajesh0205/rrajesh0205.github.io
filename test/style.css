@@ -61,11 +61,6 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
-body {
-    background: #fff;
-    padding: 0;
-    margin: 0;
-    font-family: 'Varela Round', sans-serif;
 }
 .header {
     display: block;
