@@ -58,7 +58,8 @@ img.center {
 
 #menu__toggle {
   opacity: 0;
-  background-color: #000;}
+  background-color: #000;
+}
 
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
@@ -86,7 +87,7 @@ img.center {
   height: 26px;
   cursor: pointer;
   z-index: 1;
-  color: white;
+  background-color: #000;
 }
 
 .menu__btn > span,
