@@ -79,6 +79,10 @@ img.center {
   margin-top: 30px;
 }
 
+overlay-content:hover {
+  color:#ffc515;
+}
+
 .overlay a {
   padding: 8px;
   text-decoration: none;
