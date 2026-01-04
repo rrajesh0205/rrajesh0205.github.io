@@ -115,3 +115,11 @@ img.center {
 }
 /* End of Navigation Bar*/
 
+/*Footer*/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+}
