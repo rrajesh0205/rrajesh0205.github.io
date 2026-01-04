@@ -118,6 +118,7 @@ img.center {
 /*Footer*/
 
 footer {
+  width: 1
   position: fixed;
   border-style: solid;
   text-align: center;
