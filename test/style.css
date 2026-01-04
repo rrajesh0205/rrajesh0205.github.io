@@ -119,6 +119,7 @@ img.center {
 
 footer {
   position: fixed;
+  border-style: solid;
   text-align: center;
   /*padding: 3px;*/
   background-color: white;
