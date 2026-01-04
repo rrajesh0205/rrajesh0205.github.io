@@ -120,7 +120,7 @@ img.center {
 footer {
   width: 100%;
   position: fixed;
-  border-style: solid;
+  /*border-style: solid;*/
   text-align: center;
   padding: 4px;
   background-color: white;
