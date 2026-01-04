@@ -118,9 +118,9 @@ img.center {
 /*Footer*/
 
 footer {
-  position: fixed;
+  /*position: fixed;*/
   text-align: center;
-  /*padding: 3px;*/
+  padding: 3px;
   background-color: white;
   color: black;
   bottom: 0;
