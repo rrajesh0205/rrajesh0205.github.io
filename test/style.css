@@ -114,24 +114,3 @@ img.center {
   }
 }
 /* End of Navigation Bar*/
-
-/*Footer*/
-
-footer {
-  
-  position: fixed;
-  
-  text-align: center;
-  vertical-align: middle;
-  padding: 5px;
-  background-color: white;
-  color: black;
-  bottom: 0;
-  left:0; 
-
-  /*display: flex;*/
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-}
