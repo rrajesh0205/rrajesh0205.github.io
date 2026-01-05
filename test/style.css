@@ -17,7 +17,6 @@ body,html {
 	background-repeat:no-repeat;
 	color: white;
     overflow-x: hidden;
-	box-sizing: border-box;
 
 }
 .father  {
@@ -60,31 +59,58 @@ img.center {
 
 /* Navigation Bar*/
 
-.page,
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.page {
-  background: inherit;
-  position: relative;
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
   z-index: 1;
-  min-height: 100vh;
-  color: #212121;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
 }
 
-.footer {
-  background: #212121;
-  position: sticky;
-  bottom: 0;
-  height: 300px;
-  color: #eee;
+.overlay-content {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.content {
-  font-size: 32px;
-  font-weight: 600;
+.overlay-content a:hover {
+  color:#ffc515;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color:#ffc515;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
 /* End of Navigation Bar*/
