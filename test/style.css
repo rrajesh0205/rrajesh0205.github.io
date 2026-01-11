@@ -31,8 +31,8 @@ body,html {
 .child  {
 	font-size: 20px;
 	position: absolute;
-	left: 90%;
-	top: 70%;
+	left: 95%;
+	top: 60%;
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
 }
