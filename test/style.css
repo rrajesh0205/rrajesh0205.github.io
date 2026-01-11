@@ -122,9 +122,9 @@ img.center {
   bottom: 0;
   width: 100%;
   padding: 20px 40px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
+  background-color: #F25C3A;
   font-size: 14px;
+  color: #000;
 }
 
 .footer-inner {
