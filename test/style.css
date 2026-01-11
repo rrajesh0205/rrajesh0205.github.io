@@ -114,3 +114,42 @@ img.center {
   }
 }
 /* End of Navigation Bar*/
+
+/* Footer */
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  font-size: 14px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  color: white;
+}
+
+.footer-right a {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.footer-right img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-right img:hover {
+  opacity: 1;
+}
+
