@@ -36,14 +36,6 @@ body,html {
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
 }
-p
-{
-	font-size: 24px;
-  	left: 50%;
-  	top: 50%;
-  	-webkit-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
-}
 span
 {
 	color:white;
