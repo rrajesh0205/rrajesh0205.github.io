@@ -142,8 +142,8 @@ img.center {
 }
 
 .footer-right img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
