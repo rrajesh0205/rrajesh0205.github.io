@@ -30,7 +30,7 @@ body,html {
 	font-size: 48px;
 	position: absolute;
   	left: 97%;
-	top: 95%;
+	top: 90%;
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
 	transition: filter .5s ease-in-out;
