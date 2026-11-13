@@ -36,10 +36,20 @@ body,html {
   	-webkit-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
 }
+
+.span_white
+{
+  color:white;
+}
+.span_yellow
+{
+	color:#ffc515;  
+}
 span
 {
 	color:#ffc515;
 }
+
 a:link, 
 a:visited{
 	color: white;
