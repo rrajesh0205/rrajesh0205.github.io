@@ -1,0 +1,170 @@
+
+
+@font-face {
+	font-family: 'HelveticaNeueLTPro';
+    src: url("../HelveticaNeueLTPro-Roman.ttf");
+}
+body,html {
+	margin: 0;
+	font-family: 'HelveticaNeueLTPro', sans-serif;
+	background-image: url('background.jpg');
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center; 
+	background-repeat:no-repeat;
+	color: white;
+    overflow-x: hidden;
+
+}
+.father  {
+	position: absolute;
+	font-size: 48px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.child  {
+	font-size: 20px;
+	position: absolute;
+	left: 95%;
+	top: 55%;
+  	-webkit-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
+.span_white
+{
+  color:white;
+}
+
+.span_white:hover
+{
+	color:#ffc515;
+}
+
+.span_yellow
+{
+	color:#ffc515;  
+}
+span
+{
+	color:#ffc515;
+}
+
+a:link, 
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color:#ffc515;
+	text-decoration: underline;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+/* Navigation Bar*/
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay-content a:hover {
+  color:#ffc515;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color:#ffc515;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* End of Navigation Bar*/
+
+/* Footer */
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 40px;
+  border-top: 2px solid rgba(255, 255, 255, 1);
+  background: transparent;
+  font-size: 18px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  color: whitesmoke;
+}
+
+.footer-right a {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.footer-right img {
+  background-image: url('instagram.png');
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-right img:hover {
+  opacity: 1;
+}
