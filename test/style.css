@@ -37,10 +37,17 @@ body,html {
   	transform: translate(-50%, -50%);
 }
 
+
 .span_white
 {
   color:white;
 }
+
+.span_white:hover
+{
+	color:#ffc515;
+}
+
 .span_yellow
 {
 	color:#ffc515;  
